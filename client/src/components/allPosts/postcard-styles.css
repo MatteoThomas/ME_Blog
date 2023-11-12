@@ -1,0 +1,51 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 0.2rem;
+  /* outline: 1px var(--color) solid; */
+  transition: all 0.4s;
+}
+
+.post-card:hover {
+  background-color: var(--accent-two);
+  transition: all 0.1s;
+}
+
+.card-img {
+  height: 70%;
+  object-fit: contain;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.card-title {
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.card-tldr {
+  color: var(--);
+  font-size: 0.8rem;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-date {
+  font-size: 0.7rem;
+  height: 1rem;
+  color: rgb(224, 224, 224);
+  font-weight: bolder;
+}

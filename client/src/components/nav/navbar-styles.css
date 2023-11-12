@@ -1,0 +1,23 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* padding: 1rem 0.3rem 0rem; */
+  width: 95vw;
+  border-bottom: 1px var(--color) solid;
+}
+.nav-logo {
+  height: 30px;
+  filter: invert(1);
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}

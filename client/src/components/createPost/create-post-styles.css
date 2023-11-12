@@ -1,0 +1,63 @@
+.create-post {
+  /* background-color: rgb(48, 68, 68); */
+  width: clamp(300px, 100%, 800px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+form {
+  /* background-color: rgb(84, 92, 37); */
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+form label {
+  /* background-color: rgb(71, 101, 101); */
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.form input {
+  all: unset;
+  border-bottom: 1px var(--color) solid;
+}
+
+li {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.delete-tag-btn {
+  padding: 0 0.3rem;
+  width: fit-content;
+  background-color: red;
+}
+
+.cloudinary-upload {
+  display: flex;
+}
+
+.image-upload-preview {
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-upload-btn {
+  height: 2.5rem;
+  background-color: var(--accent-two);
+  color: var(--bg);
+  text-transform: uppercase;
+}
+
+input[type="submit"] {
+  all: unset;
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: var(--accent-two);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: var(--bg);
+}
